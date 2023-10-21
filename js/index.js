@@ -411,7 +411,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 </table>    
           `
     })
-    // pulir
     BotonEgresar.addEventListener("click", function() {
         const InputNombre = String(document.getElementById("inputNombreEgresar").value)
         const InputApellido = String(document.getElementById("inputApellidoEgresar").value)
@@ -422,10 +421,7 @@ document.addEventListener("DOMContentLoaded", function() {
             Alumno.Nombre === InputNombre && Alumno.Apellido === InputApellido &&
             Alumno.Edad === InputEdad && Alumno.Grupo === Inputgrupo
         )
-        
-        // Verificar si se encontró un objeto que cumple con las condiciones
         if (objetoEncontrado) {
-            // Encontrado, ahora lo eliminamos del arreglo
             ListaDeAlumnos = ListaDeAlumnos.filter(Alumno => Alumno !== objetoEncontrado)
             document.getElementById("inf7-2").innerHTML = `<h1 class="text-white">El Alumno se removio del sistema!</h1>`
         } else {
