@@ -1,0 +1,33 @@
+body {
+    background-color: lightsalmon;
+}
+#form-1 {
+    display: none;
+}
+#form-2 {
+    display: none;
+}
+#Busqueda {
+    display: none;
+}
+#Informacion {
+    display: none;
+}
+#inf3 {
+    display: none;
+}
+#inf4 {
+    display: none;
+}
+#inf5 {
+    display: none;
+}
+#inf6 {
+    display: none;
+}
+#inf7 {
+    display: none;
+}
+#mostrar2 {
+    display: none;
+}
